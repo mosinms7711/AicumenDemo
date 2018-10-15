@@ -1,0 +1,15 @@
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\bin\Debug\netstandard2.0\AicumenTest.deps.json
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\bin\Debug\netstandard2.0\AicumenTest.dll
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\bin\Debug\netstandard2.0\AicumenTest.pdb
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.csprojAssemblyReference.cache
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.csproj.CoreCompileInputs.cache
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.App.xaml.g.cs
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.Views.DashboardPage.xaml.g.cs
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.Views.Details.MicroChartPage.xaml.g.cs
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.Views.Details.TopCryptoList.xaml.g.cs
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.Views.MainPage.xaml.g.cs
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.Views.Master.DashboardPageMaster.xaml.g.cs
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.AssemblyInfoInputs.cache
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.AssemblyInfo.cs
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.dll
+C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.pdb
