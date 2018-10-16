@@ -16,6 +16,7 @@ C:\Users\Rituraj\Downloads\AicumenTest-master\AicumenTest-master\AicumenTest\Aic
 F:\Mosin\AicumenDemo\AicumenTest\AicumenTest\bin\Debug\netstandard2.0\AicumenTest.deps.json
 F:\Mosin\AicumenDemo\AicumenTest\AicumenTest\bin\Debug\netstandard2.0\AicumenTest.dll
 F:\Mosin\AicumenDemo\AicumenTest\AicumenTest\bin\Debug\netstandard2.0\AicumenTest.pdb
+F:\Mosin\AicumenDemo\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.csprojAssemblyReference.cache
 F:\Mosin\AicumenDemo\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.csproj.CoreCompileInputs.cache
 F:\Mosin\AicumenDemo\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.App.xaml.g.cs
 F:\Mosin\AicumenDemo\AicumenTest\AicumenTest\obj\Debug\netstandard2.0\AicumenTest.Views.DashboardPage.xaml.g.cs

@@ -3,16 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Aicumen Test"
              xmlns:local="clr-namespace:AicumenTest"
-             xmlns:vm="clr-namespace:AicumenTest.ViewModels"
+             xmlns:vm="clr-namespace:AicumenTest.ViewModels"  
+             BackgroundImage="background.jpg"
              x:Class="AicumenTest.MainPage"
              NavigationPage.HasNavigationBar="False">
-
+    
     <StackLayout x:Name="MainLayout" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
-            <Image Source="logo.png" HeightRequest="300" WidthRequest="300" Margin="20,0,20,0"/>
-        </StackLayout>
-        <StackLayout  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-            <Button Text="Login with Facebook" Clicked="OnFBLoginClicked" TextColor="White" />
+            <Image Source="logo.png" HeightRequest="300" WidthRequest="300" Margin="20,0,20,50"/>
+            <Image Source="facebook.png" HorizontalOptions="FillAndExpand" Margin="20,0,20,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnFBLoginClicked"/>
+                </Image.GestureRecognizers>
+            </Image>
         </StackLayout>
     </StackLayout>
 </ContentPage>
