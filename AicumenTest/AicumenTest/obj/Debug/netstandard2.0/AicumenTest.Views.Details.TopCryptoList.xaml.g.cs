@@ -11,8 +11,7 @@
 namespace AicumenTest {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\Aicu" +
-        "menTest\\Views\\Details\\TopCryptoList.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest\\Views\\Details\\TopCryptoList.xaml")]
     public partial class TopCryptoList : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

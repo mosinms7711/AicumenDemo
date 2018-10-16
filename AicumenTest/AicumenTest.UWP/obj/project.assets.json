@@ -8186,11 +8186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\AicumenTest.UWP\\AicumenTest.UWP.csproj",
+      "projectUniqueName": "F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest.UWP\\AicumenTest.UWP.csproj",
       "projectName": "AicumenTest.UWP",
-      "projectPath": "C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\AicumenTest.UWP\\AicumenTest.UWP.csproj",
+      "projectPath": "F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest.UWP\\AicumenTest.UWP.csproj",
       "packagesPath": "C:\\Users\\Rituraj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\AicumenTest.UWP\\obj\\",
+      "outputPath": "F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8211,8 +8211,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\AicumenTest\\AicumenTest.csproj": {
-              "projectPath": "C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\AicumenTest\\AicumenTest.csproj"
+            "F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest\\AicumenTest.csproj": {
+              "projectPath": "F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest\\AicumenTest.csproj"
             }
           }
         }

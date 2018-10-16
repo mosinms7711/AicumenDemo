@@ -1451,11 +1451,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\AicumenTest.iOS\\AicumenTest.iOS.csproj",
+      "projectUniqueName": "F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest.iOS\\AicumenTest.iOS.csproj",
       "projectName": "AicumenTest.iOS",
-      "projectPath": "C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\AicumenTest.iOS\\AicumenTest.iOS.csproj",
+      "projectPath": "F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest.iOS\\AicumenTest.iOS.csproj",
       "packagesPath": "C:\\Users\\Rituraj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\AicumenTest.iOS\\obj\\",
+      "outputPath": "F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1473,8 +1473,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\AicumenTest\\AicumenTest.csproj": {
-              "projectPath": "C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\AicumenTest\\AicumenTest.csproj"
+            "F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest\\AicumenTest.csproj": {
+              "projectPath": "F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest\\AicumenTest.csproj"
             }
           }
         }

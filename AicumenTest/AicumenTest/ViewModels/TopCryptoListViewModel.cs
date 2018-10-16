@@ -10,13 +10,15 @@ using System.Net.Http;
 using System.Text;
 using System.Linq;
 using Xamarin.Forms;
+using System.Globalization;
+using System.Diagnostics;
 
 namespace AicumenTest.ViewModels
 {
     /// <summary>
     /// Top Crypto List ViewModel
     /// </summary>
-    public class TopCryptoListViewModel:BaseViewModel
+    public class TopCryptoListViewModel:BaseViewModel,IValueConverter
     {
         //Temperory Observable collection used for Sorting purpose
         private ObservableCollection<Crypto> SortingCollection = new ObservableCollection<Crypto>();
@@ -74,6 +76,39 @@ namespace AicumenTest.ViewModels
 
             //Adding upated Top 10 Cryptos into App settings
             Application.Current.Properties["Cryptos"] = Cryptos;
+        }
+
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (Equals(value, null))
+            {
+                return "#000000";
+            }
+
+            Crypto i = value as Crypto;
+
+            if (i.Percent_change_24h.StartsWith("-"))
+            {
+                return "#FF0000";
+            }
+            else
+            {
+                return "#008000";
+            }            
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            Crypto i = value as Crypto;
+
+            if (i.Percent_change_1h.StartsWith("-"))
+            {
+                return "#FF0000";
+            }
+            else
+            {
+                return "#008000";
+            }
         }
     }
 }
