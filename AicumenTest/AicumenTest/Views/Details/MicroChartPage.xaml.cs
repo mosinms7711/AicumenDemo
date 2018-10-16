@@ -33,12 +33,13 @@ namespace AicumenTest
                 {
                     Color = SKColor.Parse(String.Format("#{0:X6}", rnd.Next(0x1000000))),
                     Label = item.Symbol,
-                    ValueLabel = item.Market_Cap_USD.ToString()
+                    ValueLabel = Math.Round(item.Market_Cap_USD,2).ToString()
                 });
 
                 Debug.WriteLine("entries:" + entries);
             }
-            PieChart.Chart = new DonutChart { Entries = entries };
+            PieChart.Chart = new DonutChart { Entries = entries};
+           
         }
 
     }

@@ -71,7 +71,9 @@ namespace AicumenTest.ViewModels
             //Get first 10 items from collection
             foreach (var item in SortingCollection.Skip(0).Take(10))
             {
-                Cryptos.Add(item);
+                //Cryptos.Add(item);
+          
+                Cryptos.Add(new Crypto { Name = item.Name, Symbol = item.Symbol, Price_USD =Math.Round(double.Parse(item.Price_USD),2).ToString(), Percent_change_1h = Math.Round(double.Parse(item.Percent_change_1h),2).ToString(), Percent_change_24h = Math.Round(double.Parse(item.Percent_change_24h),2).ToString(), Percent_change_7d = Math.Round(double.Parse(item.Percent_change_7d),2).ToString(),Market_Cap_USD= (float)(Math.Round(item.Market_Cap_USD)) });
             }
 
             //Adding upated Top 10 Cryptos into App settings
@@ -94,6 +96,7 @@ namespace AicumenTest.ViewModels
             else
             {
                 return "#008000";
+
             }            
         }
 

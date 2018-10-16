@@ -8,6 +8,8 @@
         <vm:TopCryptoListViewModel x:Name="TopCryptoListVM" x:FieldModifier="public" />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-            <forms:ChartView x:Name="PieChart" HeightRequest="80" WidthRequest="80" />
+        <StackLayout>
+            <forms:ChartView x:Name="PieChart" HeightRequest="250" WidthRequest="150"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

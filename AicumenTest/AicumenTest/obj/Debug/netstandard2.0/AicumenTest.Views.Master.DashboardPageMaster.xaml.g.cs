@@ -11,8 +11,8 @@
 namespace AicumenTest {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Rituraj\\Downloads\\AicumenTest-master\\AicumenTest-master\\AicumenTest\\Aicu" +
-        "menTest\\Views\\Master\\DashboardPageMaster.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\Mosin\\AicumenDemo\\AicumenTest\\AicumenTest\\Views\\Master\\DashboardPageMaster.xam" +
+        "l")]
     public partial class DashboardPageMaster : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
