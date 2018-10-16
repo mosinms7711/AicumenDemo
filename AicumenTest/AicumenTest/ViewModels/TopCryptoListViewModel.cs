@@ -82,35 +82,61 @@ namespace AicumenTest.ViewModels
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (Equals(value, null))
+            try
             {
+                if (Equals(value, null))
+                {
+                    return "#000000";
+                }
+
+                Crypto i = value as Crypto;
+
+                if (i.Percent_change_24h.StartsWith("-"))
+                {
+                    return "#FF0000";
+                }
+                else
+                {
+                    return "#008000";
+
+                }
+            }
+            catch(Exception err)
+            {               
+                Debug.WriteLine("Message:" + err.Message);
+                Debug.WriteLine("Stack Trace:" + err.StackTrace);
+                Debug.WriteLine("Source:" + err.Source);
                 return "#000000";
-            }
-
-            Crypto i = value as Crypto;
-
-            if (i.Percent_change_24h.StartsWith("-"))
-            {
-                return "#FF0000";
-            }
-            else
-            {
-                return "#008000";
-
-            }            
+            }                        
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            Crypto i = value as Crypto;
+            try
+            {
+                if (Equals(value, null))
+                {
+                    return "#000000";
+                }
 
-            if (i.Percent_change_1h.StartsWith("-"))
-            {
-                return "#FF0000";
+                Crypto i = value as Crypto;
+
+                if (i.Percent_change_24h.StartsWith("-"))
+                {
+                    return "#FF0000";
+                }
+                else
+                {
+                    return "#008000";
+
+                }
             }
-            else
+            catch (Exception err)
             {
-                return "#008000";
+                Debug.WriteLine("Message:" + err.Message);
+                Debug.WriteLine("Stack Trace:" + err.StackTrace);
+                Debug.WriteLine("Source:" + err.Source);
+                return "#000000";
             }
         }
     }
