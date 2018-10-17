@@ -30,7 +30,7 @@
                                     <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
                                         <Label  Text="{Binding Name,Mode=TwoWay}" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" Style="{StaticResource SubtitleTextStyle}" FontSize="Medium" FontAttributes="Bold"/>
                                         <Label Text="{Binding Symbol,Mode=TwoWay}"  HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center"  Style="{StaticResource SubtitleTextStyle}" FontSize="Medium" FontAttributes="Bold"/>
-                                        <Label Text="{Binding Price_USD,Mode=TwoWay}" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End" Style="{StaticResource SubtitleTextStyle}" FontSize="Medium" FontAttributes="Bold" />
+                                        <Label Text="{Binding Price_USD,Mode=TwoWay}" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="Green" FontSize="Medium" FontAttributes="Bold" />
                                     </StackLayout>
                                     <!--StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal"-->
                                     <Grid Margin="0,10">
