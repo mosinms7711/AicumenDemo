@@ -89,9 +89,9 @@ namespace AicumenTest.ViewModels
                     return "#000000";
                 }
 
-                Crypto i = value as Crypto;
+                var valueAsString = value.ToString();
 
-                if (i.Percent_change_24h.StartsWith("-"))
+                if(valueAsString.StartsWith("-"))
                 {
                     return "#FF0000";
                 }
@@ -101,7 +101,7 @@ namespace AicumenTest.ViewModels
 
                 }
             }
-            catch(Exception err)
+            catch (Exception err)
             {               
                 Debug.WriteLine("Message:" + err.Message);
                 Debug.WriteLine("Stack Trace:" + err.StackTrace);
@@ -119,16 +119,15 @@ namespace AicumenTest.ViewModels
                     return "#000000";
                 }
 
-                Crypto i = value as Crypto;
+                var valueAsString = value.ToString();
 
-                if (i.Percent_change_24h.StartsWith("-"))
+                if (valueAsString.StartsWith("-"))
                 {
                     return "#FF0000";
                 }
                 else
                 {
                     return "#008000";
-
                 }
             }
             catch (Exception err)
